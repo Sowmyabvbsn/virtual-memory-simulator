@@ -297,10 +297,6 @@ This simulator helps students understand:
 - Comparison between different algorithms
 - Interactive deadlock resolution
 
-## Contributors
-
-This project is designed for educational purposes as part of a 4th year 2nd semester Operating Systems course.
-
 ## License
 
 This project is created for educational purposes.
