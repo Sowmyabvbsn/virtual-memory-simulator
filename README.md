@@ -218,14 +218,6 @@ Students learn:
 
 ### Quick Start (Both Applications)
 
-**Method 1 - Quick Run Script:**
-```bash
-cd /app
-./run.sh
-```
-This will compile all files and launch the MultiThreadGUI by default.
-
-**Method 2 - Manual Compilation:**
 ```bash
 cd /app
 javac *.java
@@ -575,23 +567,6 @@ Algorithm: LRU
 
 ---
 
-## 🔍 Troubleshooting
-
-### Common Issues:
-
-**Issue**: "Exception in thread 'main' java.lang.UnsupportedClassVersionError"
-- **Solution**: Upgrade to JDK 11 or higher
-
-**Issue**: GUI doesn't appear
-- **Solution**: Ensure DISPLAY variable is set (for Linux) or use Windows/Mac
-
-**Issue**: Simulation runs too fast/slow
-- **Solution**: Adjust timer delay in `MultiThreadGUI.java` line with `new javax.swing.Timer(500, ...)` - change 500 to desired milliseconds
-
-**Issue**: Deadlock not detected
-- **Solution**: Some configurations may not produce deadlock. Try the pre-configured "Deadlock Scenario"
-
----
 
 ## 📖 References & Concepts
 
